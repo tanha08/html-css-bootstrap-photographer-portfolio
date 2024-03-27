@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#1C2831 ;
+    font-family: "Unbounded", sans-serif; 
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.logo img{
+width: 150px;
+height: 44px;
+}
+.nav-menu ul{
+    display: flex;
+    gap: 30px;
+
+}
+.nav-menu ul li{
+ list-style-type: none;
+}
+.nav-menu ul li a{
+ text-decoration: none;
+ color:#8CAAA6 ;
+}
+.nav-menu ul li a:hover{
+    color:#B8FA9E ;
+}
+/* hero-section */
+.hero-container{
+    text-align: center;
+    color: #D4FCF2;
+    padding-top: 80px;
+}
+.hero-heading h1{
+    font-size: 110px;
+    
+}
+.container{
+    padding-top: 30px;
+}
+.carousel-item img{
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+}
+/* professional style */
+.professional h1{
+    font-size: 68px;
+    font-weight: 400;
+    color: #D4FCF2;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 80px;
+}
+
+.professional-content{
+    color:  #D4FCF2;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 80px;
+    width: 52%;  
+      position: relative;   
+      left: 650px; 
+    
+}
+.btn button{
+   padding-top: 20px;
+   padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border: 1px solid #D4FCF2;
+    border-radius: 50px;
+    color: #D4FCF2;
+   
+   }
+   /* image */
+   .image img{
+    width: 100%;
+    padding-top: 80px;
+    padding-right: 40px;
+    padding-left: 40px;
+   }
+/* Testimonials style */
+.Testimonial p{
+    color: #D4FCF2;
+    text-align: center;
+    padding-top: 80px;
+}
+.Testimonial-hr{
+    width: 5%;
+    height: 1px;
+    background-color: #D4FCF2;
+    margin: auto;
+}
+.testimonial-content h1{
+    color: #D4FCF2;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 68px;
+}
+.testimonial-content1 p{
+    text-align: center;
+    color: #D4FCF2;
+    padding-top: 20px;
+}
+/* email */
+.form-label{
+    color: #D4FCF2;
+}
+.form-check-label{
+    color: #D4FCF2;
+}
+/* footer */
+footer{
+    color: #D4FCF2;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+
+
